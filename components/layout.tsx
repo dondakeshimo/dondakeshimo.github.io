@@ -3,12 +3,20 @@ import Meta from './meta'
 
 type Props = {
   children: React.ReactNode
+  title: string
+  description: string
+  path: string
 }
 
-const Layout = ({ children }: Props) => {
+const Layout = ({
+  children,
+  title,
+  description,
+  path,
+}: Props) => {
   return (
     <>
-      <Meta />
+      <Meta title={title} description={description} path={path} />
       <div className="min-h-vfull">
         <main>{children}</main>
       </div>
