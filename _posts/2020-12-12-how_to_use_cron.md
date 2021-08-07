@@ -38,14 +38,14 @@ cronジョブの設定方法としては `crontab -e` を用いる方法を知�
 ### `crontab -e` によるエディタを用いた編集
 言わずと知れたエディタで編集する方法。
 
-```console
+```
 $ crontab -u $USER -e
 ```
 
 とすることで `$USER` 権限のcronジョブを作成することができる。
 有名なデメリットに
 
-```console
+```
 $ crontab -r
 ```
 
@@ -67,7 +67,7 @@ $ crontab -r
 crontabコマンドは引数としてファイルを渡すとそのファイルを$USERのcronジョブ置き場に配置してくれる。
 `crontab -e` と同様にユーザを指定することも可能。
 
-```console
+```
 $ crontab -u $USER [file]
 ```
 ##### pros
