@@ -14,6 +14,11 @@ jobs:
         with:
           cmd: install
 
+      - name: yarn lint
+        uses: borales/actions-yarn@v2.0.0
+        with:
+          cmd: "next lint"
+
       - name: yarn build
         uses: borales/actions-yarn@v2.0.0
         with:
