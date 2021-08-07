@@ -16,7 +16,7 @@ const Meta = ({
     <Head>
       <link
         rel="apple-touch-icon"
-        sizes="180x180"
+        sizes="144x144"
         href="/favicon/apple-touch-icon.png"
       />
       <link
@@ -49,7 +49,7 @@ const Meta = ({
 
       <meta property="og:title" content={title} />
       <meta property="og:type" content="website" />
-      <meta property="og:url" content={`{DOMAIN}/${path}`} />
+      <meta property="og:url" content={`${DOMAIN}/${path}`} />
       <meta property="og:description" content={description} />
       <meta property="og:image" content={HOME_OG_IMAGE_URL} />
       <meta property="og:image:alt" content={description} />
