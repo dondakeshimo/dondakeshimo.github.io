@@ -9,17 +9,19 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: yarn install
-        uses: borales/actions-yarn@v2.0.0
+      - name: Setup Node.js 14.x
+        uses: actions/setup-node@v2
         with:
-          cmd: install
+          node-version: 14
+
+      - name: yarn install
+        run: |
+          yarn install
 
       - name: yarn lint
-        uses: borales/actions-yarn@v2.0.0
-        with:
-          cmd: "next lint"
+        run: |
+          yarn next lint
 
       - name: yarn build
-        uses: borales/actions-yarn@v2.0.0
-        with:
-          cmd: build
+        run: |
+          yarn build
