@@ -1,0 +1,100 @@
+$base03: #002b36;
+$base02: #073632;
+$base01: #586e74;
+$base00: #657b83;
+$base0: #839496;
+$base1: #93a1a1;
+$base2: #eee8d5;
+$base3: #fdf6e3;
+
+$accents: (
+    slr-yellow: #b58900,
+    slr-orange: #cb4b16,
+    slr-red: #dc322f,
+    slr-magenta: #d33682,
+    slr-violet: #6c71c4,
+    slr-blue: #268bd2,
+    slr-cyan: #2aa198,
+    slr-green: #859900,
+);
+
+@mixin rebase($rebase03, $rebase02, $rebase01, $rebase00, $rebase0, $rebase1, $rebase2, $rebase3) {
+    background-color: $rebase03;
+    color: $rebase0;
+
+    * {
+        color: $rebase0;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        color: $rebase1;
+    }
+
+    h1 {
+        border-color: map-get($accents, slr-orange);
+    }
+
+    h2 {
+        border-color: map-get($accents, slr-cyan);
+    }
+
+    a, a:active, a:visited {
+        color: map-get($accents, slr-blue);
+
+        &.logo {
+            color: map-get($accents, slr-magenta);
+        }
+    }
+}
+
+@mixin rebase-code($rebase03, $rebase02, $rebase01, $rebase00, $rebase0, $rebase1, $rebase2, $rebase3) {
+    background-color: $rebase03;
+    color: $rebase1;
+    border: none;
+
+    .token {
+        &.keyword {
+            color: map-get($accents, slr-green);
+        }
+
+        &.class-name {
+            color: map-get($accents, slr-blue);
+        }
+
+        &.punctuation {
+            color: $rebase1;
+        }
+
+        &.comment {
+            color: $rebase01;
+        }
+
+        &.operator {
+            color: map-get($accents, slr-green);
+        }
+
+        &.function {
+            color: map-get($accents, slr-blue);
+        }
+    }
+}
+
+html, .solarized-light {
+    @include rebase($base3,$base2,$base1,$base0,$base00,$base01,$base02,$base03)
+}
+
+code {
+    color: map-get($accents, slr-magenta);
+    background-color: $base2;
+    padding: 0.1rem;
+    border-radius: 5px;
+    border: solid 1px $base1;
+}
+
+pre, .solarized-dark  {
+    @include rebase($base03,$base02,$base01,$base00,$base0,$base1,$base2,$base3);
+
+    code, .slr-dark-code {
+        @include rebase-code($base03,$base02,$base01,$base00,$base0,$base1,$base2,$base3);
+    }
+}

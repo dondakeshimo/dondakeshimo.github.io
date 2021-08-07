@@ -1,0 +1,152 @@
+@import './solarized';
+@import './layout';
+
+* {
+    font-family: sans-serif;
+}
+
+p, li, code {
+    font-size: 1.0rem;
+}
+
+h1 {
+    font-size: 1.8rem;
+    padding-left: $padding_m;
+    border-bottom: solid 4px;
+    border-left: double 6px;
+}
+
+.title {
+    padding-left: none;
+    border-bottom: none;
+    border-left: none;
+}
+
+h2 {
+    font-size: 1.6rem;
+    border-bottom: solid 2px;
+
+    &.post-title {
+        border-bottom: none;
+    }
+}
+
+h3 {
+    font-size: 1.4rem;
+}
+
+h4 {
+    font-size: 1.2rem;
+}
+
+h5 {
+    font-size: 1.0rem;
+}
+
+pre {
+    overflow-x: auto;
+    padding: $padding_s;
+}
+
+code {
+    font-family: monospace;
+}
+
+blockquote {
+    margin-top: $margin_m;
+    margin-bottom: $margin_m;
+    margin-left: $margin_m;
+    padding-left: $padding_m;
+    border-left: solid 3px #666666;
+    font-style: italic;
+}
+
+.text-l {
+    font-size: 1.5rem;
+    line-height: 1;
+}
+
+.text-xl {
+    font-size: 2rem;
+    line-height: 1;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+.text-tight {
+    letter-spacing: -0.025em;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.lh-tight {
+    line-height: 1.25;
+}
+
+.lh-normal {
+    line-height: 1.5;
+}
+
+.border-b-intro {
+    padding-bottom: 2rem;
+    border-bottom: solid 2px map-get($accents, slr-yellow);
+}
+
+.border-b-post {
+    padding-top: $padding_l;
+    padding-bottom: $padding_l;
+    border-bottom: solid 2px map-get($accents, slr-cyan);
+}
+
+svg {
+    width: 1rem;
+    height: 1rem;
+
+    &.svg-l {
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-right: $margin_s;
+    }
+}
+
+.sns-container {
+    display: flex;
+    justify-content: center;
+
+    svg {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .twitter-icon path {
+        color: map-get($accents, slr-blue);
+    }
+
+    .github-icon path {
+        color: black;
+    }
+}
+
+.dondake-icon path {
+    color: map-get($accents, slr-magenta);
+}
+
+.post-container {
+    display:flex;
+    justify-content: left;
+    align-items: center;
+
+    svg.pc-left{
+        width: 2.5rem;
+        height: 2.5rem;
+        margin-right: $margin_l;
+    }
+}
