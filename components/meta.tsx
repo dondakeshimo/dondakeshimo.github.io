@@ -51,7 +51,7 @@ const Meta = ({
       <meta property="og:type" content="website" />
       <meta property="og:url" content={`${DOMAIN}/${path}`} />
       <meta property="og:description" content={description} />
-      <meta property="og:image" content="/assets/home/home-og-image.png" />
+      <meta property="og:image" content={`${DOMAIN}/assets/home/home-og-image.png`} />
       <meta property="og:image:alt" content={description} />
       <meta property="og:site_name" content="dondakeshimoの丸太" />
       <meta property="og:locale" content="ja_JP" />
@@ -59,7 +59,6 @@ const Meta = ({
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:image:alt" content={description} />
       <meta property="twitter:site" content="dondakeshimo" />
-      <meta property="og:image" content={`${DOMAIN}/assets/home/home-og-image.png`} />
       <meta property="twitter:creator" content="dondakeshimo" />
 
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossOrigin="anonymous" />
