@@ -11,8 +11,6 @@ const tagManagerArgs = {
   }
 }
 
-console.log(tagManagerArgs)
-
 export default function MyApp({ Component, pageProps }: AppProps) {
   useEffect(() => {
     TagManager.initialize(tagManagerArgs)
