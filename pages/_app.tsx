@@ -4,7 +4,7 @@ import TagManager from 'react-gtm-module'
 import '../styles/index.scss'
 
 const tagManagerArgs = {
-  gtmId: `${process.env.GTM_ID}`,
+  gtmId: `${process.env.NEXT_PUBLIC_GTM_ID}`,
   dataLayerName: 'dataLayer',
   dataLayer: {
     platform: 'nextjs',
