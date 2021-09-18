@@ -5,13 +5,13 @@ import '../styles/index.scss'
 
 const tagManagerArgs = {
   gtmId: `${process.env.GTM_ID}`,
-  auth: `${process.env.GTM_AUTH}`,
-  preview: `${process.env.GTM_PREVIEW}`,
   dataLayerName: 'dataLayer',
   dataLayer: {
     platform: 'nextjs',
   }
 }
+
+console.log(tagManagerArgs)
 
 export default function MyApp({ Component, pageProps }: AppProps) {
   useEffect(() => {
