@@ -57,9 +57,6 @@ const Meta = ({
       <meta property="og:locale" content="ja_JP" />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:title" content={title} />
-      <meta property="twitter:description" content={description} />
-      <meta property="twitter:image" content="/assets/home/home-og-image.png" />
       <meta property="twitter:image:alt" content={description} />
       <meta property="twitter:site" content="dondakeshimo" />
       <meta property="twitter:creator" content="dondakeshimo" />
