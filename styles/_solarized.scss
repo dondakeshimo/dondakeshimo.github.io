@@ -38,6 +38,10 @@ $accents: (
         border-color: map-get($accents, slr-cyan);
     }
 
+    h3 {
+        text-decoration-color: map-get($accents, slr-yellow);
+    }
+
     a, a:active, a:visited {
         color: map-get($accents, slr-blue);
 
