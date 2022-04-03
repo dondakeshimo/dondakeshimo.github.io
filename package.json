@@ -25,7 +25,7 @@
     "remark-emoji": "^2.2.0",
     "remark-html": "13.0.1",
     "remark-html-katex": "^4.0.1",
-    "remark-math": "^4.0.0",
+    "remark-math": "^5.1.1",
     "remark-oembed": "^1.2.2",
     "remark-rehype": "^8.1.0",
     "remark-slug": "^6.1.0",
