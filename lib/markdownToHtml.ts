@@ -1,4 +1,4 @@
-import unified from 'unified'
+import {unified} from 'unified'
 import remarkParse from 'remark-parse'
 import math from 'remark-math'
 import slug from 'remark-slug'
