@@ -10,8 +10,8 @@ const Intro = () => {
 
       <SnsIcons />
 
-      <h4 className="text-center font-decision-line">
-        {SITE_SHORT_DESC}
+      <h4 className="text-center border-b-intro">
+        Softwear Engineerのブログ
       </h4>
     </section>
   )
