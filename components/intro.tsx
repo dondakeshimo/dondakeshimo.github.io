@@ -1,4 +1,4 @@
-import { BLOG_NAME } from '../lib/constants'
+import { BLOG_NAME, SITE_SHORT_DESC } from '../lib/constants'
 import SnsIcons from './sns-icons'
 
 const Intro = () => {
