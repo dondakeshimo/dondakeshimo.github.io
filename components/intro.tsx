@@ -8,18 +8,10 @@ const Intro = () => {
         {BLOG_NAME}
       </h1>
 
-      <h5 className="text-center">
-        マルタ島は最高
-      </h5>
-
       <SnsIcons />
 
-      <h4 className="text-center font-decision-line">
-        {SITE_SHORT_DESC}
-      </h4>
-
       <h4 className="text-center border-b-intro">
-        Softwear Engineerのブログ
+        {SITE_SHORT_DESC}
       </h4>
     </section>
   )
