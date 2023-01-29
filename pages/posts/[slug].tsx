@@ -32,7 +32,7 @@ const Post = ({ post }: Props) => {
             <article className="mb-2xl">
               <Head>
                 <title>
-                  {post.title} | {BLOG_NAME}
+                  {`${post.title} | ${BLOG_NAME}`}
                 </title>
                 <meta property="og:image" content={post.ogImage.url} />
               </Head>

@@ -22,7 +22,7 @@ const PostPreview = ({
       <div className="pc-right">
         <h2 className="post-title">
           <Link as={`/posts/${slug}`} href="/posts/[slug]">
-            <a>{title}</a>
+            {title}
           </Link>
         </h2>
         <div className="text-lg mb-4">
