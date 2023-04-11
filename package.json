@@ -30,7 +30,7 @@
     "remark-rehype": "^10.1.0",
     "remark-slug": "^7.0.1",
     "remark-toc": "^8.0.1",
-    "sass": "^1.60.0",
+    "sass": "^1.61.0",
     "typescript": "^5.0.4",
     "unified": "^10.1.2"
   },
