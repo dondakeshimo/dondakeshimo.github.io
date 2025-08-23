@@ -16,39 +16,46 @@ excerpt: Grokking Simplicityの私的なまとめ
 
 [Grokking Simplicity](https://ericnormand.me/grokking-simplicity) を読んだので、私的なまとめを残しておきます。
 
-## ざっくりまとめ
-
-- 関数型プログラミングのエッセンスは関数型言語以外でも応用可能である。
-- 関数型プログラミングの書籍は学術的なものが多く、現場のエンジニアの目に止まりづらい。
-- 現場で広く利用されているJavaScriptのコードを改善していく過程を説明することで関数型プログラミングの恩恵を説明する。
-
-
 ## 対象読者
 
 - 自分
 - Grokking Simplicityを読んで、内容をぼんやり思い出したい人
 - これからGrokking Simplicityを読もうとしている人
 
+# 書籍の動機
+
+- 関数型プログラミングのエッセンスは関数型言語以外でも応用可能である。
+- 関数型プログラミングの書籍は学術的なものが多く、現場のエンジニアの目に止まりづらい。
+- 現場で広く利用されているJavaScriptのコードを改善していく過程を説明することで関数型プログラミングの恩恵を説明する。
+
 # 原則
 
 ## Data, Calculation, Action
 
-### それぞれの定義
+### 定義
 
 以下はGrokking Simplicityからの引用です。
 
 > Actions
+>
 > Depend on how many times or when it is run
+>
 > Also called functions with side-effects, side-effecting functions, impure functions
+>
 > Examples: Send an email, read from a database
 
 > Calculations
+>
 > Computations from input to output
+>
 > Also called pure functions, mathematical functions
+>
 > Examples: Find the maximum number, check if an email address is valid
 
 > Data
+>
 > Facts about events
+>
 > Examples: The email address a user gave us, the dollar amount read from a bank’s API
 
 ### 基本方針
