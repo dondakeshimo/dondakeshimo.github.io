@@ -1,5 +1,5 @@
 ---
-title: 'Grokking Simplicity'
+title: 'Grokking Simplicityをまとめる'
 date: '2025-08-23'
 tags: [functional-programming, book]
 cover: ./preview.jpg
