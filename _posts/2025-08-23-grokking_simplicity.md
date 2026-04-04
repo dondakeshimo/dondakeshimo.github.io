@@ -1,11 +1,11 @@
 ---
-title: 'Grokking Simplicityをまとめる'
+title: 'Grokking Simplicityを読んで'
 date: '2025-08-23'
 tags: [functional-programming, book]
 cover: ./preview.jpg
 ogImage:
   url: '/assets/blog/dynamic-routing/cover.jpg'
-excerpt: Grokking Simplicityの私的なまとめ
+excerpt: Grokking Simplicityから得た学び
 ---
 
 # 目次

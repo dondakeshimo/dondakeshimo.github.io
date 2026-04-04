@@ -1,11 +1,11 @@
 ---
-title: 'アナタはなぜチェックリストを使わないのか？をまとめる'
+title: 'アナタはなぜチェックリストを使わないのか？を読んで'
 date: '2026-02-14'
 tags: [book]
 cover: ./preview.jpg
 ogImage:
   url: '/assets/blog/dynamic-routing/cover.jpg'
-excerpt: アナタはなぜチェックリストを使わないのか？の私的なまとめ
+excerpt: アナタはなぜチェックリストを使わないのか？から得た学び
 ---
 
 # 目次
