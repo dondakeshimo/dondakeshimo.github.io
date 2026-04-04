@@ -1,11 +1,11 @@
 ---
-title: 'Grokking Simplicityをまとめる'
+title: 'Grokking Simplicityを読んで'
 date: '2025-08-23'
 tags: [functional-programming, book]
 cover: ./preview.jpg
 ogImage:
   url: '/assets/blog/dynamic-routing/cover.jpg'
-excerpt: Grokking Simplicityの私的なまとめ
+excerpt: Grokking Simplicityから得た学び
 ---
 
 # 目次
@@ -14,7 +14,7 @@ excerpt: Grokking Simplicityの私的なまとめ
 
 ## 内容
 
-[Grokking Simplicity](https://ericnormand.me/grokking-simplicity) を読んだので、私的なまとめを残しておきます。
+[Grokking Simplicity](https://ericnormand.me/grokking-simplicity) を読んでとても良かったので学んだことをまとめました。
 
 ## 対象読者
 
