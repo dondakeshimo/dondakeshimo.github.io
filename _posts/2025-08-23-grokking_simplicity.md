@@ -14,7 +14,7 @@ excerpt: Grokking Simplicityの私的なまとめ
 
 ## 内容
 
-[Grokking Simplicity](https://ericnormand.me/grokking-simplicity) を読んだので、私的なまとめを残しておきます。
+[Grokking Simplicity](https://ericnormand.me/grokking-simplicity) を読んでとても良かったので学んだことをまとめました。
 
 ## 対象読者
 
