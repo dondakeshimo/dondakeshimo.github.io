@@ -1,5 +1,6 @@
-@import './solarized';
-@import './layout';
+@use "sass:map";
+@use './solarized' as sol;
+@use './layout' as lay;
 
 * {
     font-family: sans-serif;
@@ -11,7 +12,7 @@ p, li, code {
 
 h1 {
     font-size: 1.8rem;
-    padding-left: $padding_m;
+    padding-left: lay.$padding_m;
     border-bottom: solid 4px;
     border-left: double 6px;
 }
@@ -46,7 +47,7 @@ h5 {
 
 pre {
     overflow-x: auto;
-    padding: $padding_s;
+    padding: lay.$padding_s;
 }
 
 code {
@@ -54,10 +55,10 @@ code {
 }
 
 blockquote {
-    margin-top: $margin_m;
-    margin-bottom: $margin_m;
-    margin-left: $margin_m;
-    padding-left: $padding_m;
+    margin-top: lay.$margin_m;
+    margin-bottom: lay.$margin_m;
+    margin-left: lay.$margin_m;
+    padding-left: lay.$padding_m;
     border-left: solid 3px #666666;
     font-style: italic;
 }
@@ -108,13 +109,13 @@ img {
 
 .border-b-intro {
     padding-bottom: 2rem;
-    border-bottom: solid 2px map-get($accents, slr-yellow);
+    border-bottom: solid 2px map.get(sol.$accents, slr-yellow);
 }
 
 .border-b-post {
-    padding-top: $padding_l;
-    padding-bottom: $padding_l;
-    border-bottom: solid 2px map-get($accents, slr-cyan);
+    padding-top: lay.$padding_l;
+    padding-bottom: lay.$padding_l;
+    border-bottom: solid 2px map.get(sol.$accents, slr-cyan);
 }
 
 svg {
@@ -124,7 +125,7 @@ svg {
     &.svg-l {
         width: 1.5rem;
         height: 1.5rem;
-        margin-right: $margin_s;
+        margin-right: lay.$margin_s;
     }
 }
 
@@ -138,7 +139,7 @@ svg {
     }
 
     .twitter-icon path {
-        color: map-get($accents, slr-blue);
+        color: map.get(sol.$accents, slr-blue);
     }
 
     .github-icon path {
@@ -147,7 +148,7 @@ svg {
 }
 
 .dondake-icon path {
-    color: map-get($accents, slr-magenta);
+    color: map.get(sol.$accents, slr-magenta);
 }
 
 .post-container {
@@ -158,6 +159,6 @@ svg {
     svg.pc-left{
         width: 2.5rem;
         height: 2.5rem;
-        margin-right: $margin_l;
+        margin-right: lay.$margin_l;
     }
 }
