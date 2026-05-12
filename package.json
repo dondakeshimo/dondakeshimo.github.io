@@ -21,7 +21,7 @@
     "rehype-prism-plus": "2",
     "rehype-slug": "6",
     "rehype-stringify": "10",
-    "remark-emoji": "4",
+    "remark-emoji": "5",
     "remark-math": "6",
     "remark-oembed": "^1.2.2",
     "remark-parse": "11",
