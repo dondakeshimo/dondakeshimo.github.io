@@ -27,7 +27,7 @@
     "remark-parse": "11",
     "remark-rehype": "11",
     "remark-toc": "9",
-    "sass": "^1.99.0",
+    "sass": "^1.100.0",
     "unified": "11"
   },
   "devDependencies": {
